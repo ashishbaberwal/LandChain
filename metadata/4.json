@@ -1,0 +1,33 @@
+{
+    "name": "BU Apartments",
+    "address": "Block D-12, Sector 125, Knowledge Park III, Greater Noida, India 201310",
+    "description": "Bennett Students are welcomed",
+    "image": "https://ipfs.io/ipfs/bafybeiahjdoiiet76afee557wdl6jqllq5urael7iclgtjrv6fo4g7mppm/4.png",
+    "id": "4",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 8
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Apartment complex"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 850
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2019
+        }
+    ]
+}

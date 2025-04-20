@@ -1,4 +1,5 @@
 import { ethers } from 'ethers';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 
 const Navigation = ({ account, setAccount }) => {
@@ -11,14 +12,16 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <ul className='nav__links'>
-                <li><a href="#">Buy</a></li>
-                <li><a href="#">Rent</a></li>
-                <li><a href="#">Sell</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/properties">Properties</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
 
             <div className='nav__brand'>
-                <img src={logo} alt="Logo" />
-                <h1>LandChain</h1>
+                <Link to="/">
+                  <img src={logo} alt="Logo" />
+                  <h1>LandChain</h1>
+                </Link>
             </div>
 
             {account ? (

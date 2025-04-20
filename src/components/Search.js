@@ -1,14 +1,18 @@
-const Search = () => {
-    return (
-        <header>
-            <h2 className="header__title">Search it. Explore it. Buy it.</h2>
-            <input
-                type="text"
-                className="header__search"
-                placeholder="Enter an address, neighborhood, city, or ZIP code"
-            />
-        </header>
-    );
-}
+import React from 'react';
+
+const Search = ({ search, setSearch }) => {
+  return (
+    <header>
+      <h2 className="header__title">Find a property that suits your needs</h2>
+      <input
+        type="text"
+        className="header__search"
+        placeholder="Enter an address, city, or ZIP code"
+        onChange={(e) => setSearch(e.target.value)}
+        value={search}
+      />
+    </header>
+  );
+};
 
 export default Search;
